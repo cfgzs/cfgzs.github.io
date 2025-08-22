@@ -1,0 +1,21 @@
+/* 清除默认样式 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#f3f8fe
+}
+/* 清除li标签默认的点 */
+li{
+    list-style: none;
+}
+/* 设置字体和颜色*/
+    body{
+    font: 14px/1.5 "Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    }
+/* 清除超链接默认样式 */
+a{
+    color:#333;
+    text-decoration: none;
+}

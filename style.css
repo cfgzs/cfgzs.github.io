@@ -1,0 +1,198 @@
+/* 头部标签 */
+.wrapper{
+    height: 90px;
+    display: flex;
+    background-color: #fff;
+    opacity: 0.9;
+}
+/* logo */
+.wrapper .logo img{
+    height: 100%;
+}
+/* 目录 */
+.wrapper .menu{
+    flex: 1;
+    display: flex;
+    background-color: #fff;
+    justify-content:flex-end;
+    align-items: end;
+     text-align: right;
+    /* 强行不转行 */
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+.wrapper .menu ul{
+    margin: 0;
+    display: flex;
+    background-color: #fff;
+    align-self: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 30px;
+   
+   
+}
+.wrapper .menu ul li a{
+    background-color: #fff;
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 25px;
+       
+}
+.wrapper .menu ul li a:hover{
+    color: blue;
+}
+/* banner区域 */
+.banner{
+    display: flex;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.banner .left ul{
+    margin: 200px;
+}
+.banner .left ul li h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.banner .left ul li{
+    font-size: 20px;
+}
+.banner .right .picbanner{
+    display: flex;
+    justify-content: right;
+    margin: 100px auto;
+}
+.banner .right .picbanner img{
+    margin-right: 100px;
+    width: 50%;
+    height: 50%;
+}
+.advantage .advantagebox{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.advantage img{
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+    height: 128px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.advantage h2{
+    
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+.advantage h3{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.project{
+    display: flex;
+    margin-top: 30px;
+     margin-bottom: 10px;
+     margin-left: 80px;
+     justify-content: center;
+     text-align: center;
+
+}
+.project h2{
+   font-size: 30px;
+    width: 60px;
+    height: 45px;
+    white-space: nowrap;
+   text-align: center;
+   margin-right:80px;
+
+}
+.projects{
+    height: 400px;
+    background-color: #f3f8fe;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.projects .projectlink1{
+    background-color: #fff;
+    width: 300px;
+    height: 347px;
+     background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+    border-radius: 15px;
+}
+.projects .projectlink2{
+    background-color: #fff;
+    width: 300px;
+    height: 347px;
+    border-radius: 15px;
+     background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+}
+.projects .projectlink3{
+    background-color: #fff;
+    width: 300px;
+    height: 347px;
+    border-radius: 15px;
+     background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+}
+.projects .projectlink4{
+    background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+    width: 300px;
+    height: 347px;
+    border-radius: 15px;
+}
+.projects h3{
+    font-size: 30px;
+    background-color: transparent;
+   color: black;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.projects h4{
+    font-size: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.member{
+    margin-top: 50px;
+    height: 300px;
+    
+
+}
+.member .membertitle h2{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.member .people{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.end{
+    height: 80px;
+    background-color: black;
+    margin-top: 30px;
+
+}
+.end h5{
+     height: 100%;
+   text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    font-weight: 400;
+}
