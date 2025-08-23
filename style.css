@@ -88,6 +88,7 @@
     font-size: 30px;
     text-align: center;
     align-items: center;
+    margin-top: 30px;
 }
 .advantage h3{
     padding-top: 10px;
@@ -96,7 +97,7 @@
 }
 .project{
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
      margin-bottom: 10px;
      margin-left: 80px;
      justify-content: center;
